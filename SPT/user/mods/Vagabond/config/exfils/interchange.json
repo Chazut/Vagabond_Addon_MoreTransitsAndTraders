@@ -12,29 +12,29 @@
   ],
   "transits": [
     {
-      "identifier": "VGB_INTERCHANGE_SHORELINE",
-      "destinationLocation": "shoreline",
+      "identifier": "VGB_IT_SH",
+      "destinationLocation": "Shoreline",
       "description": "Transit to Shoreline",
       "exfiltrationTime": 20,
       "x": -318.782,
       "y": 21.365,
       "z": 268.296,
       "rotationY": 207.341,
-      "connectedIdentifier": "VGB_SHORELINE_INTERCHANGE"
+      "connectedIdentifier": "VGB_SH_IT"
     },
     {
-      "identifier": "VGB_INTERCHANGE_WOODS",
-      "destinationLocation": "woods",
+      "identifier": "VGB_IT_WD",
+      "destinationLocation": "Woods",
       "description": "Transit to Woods",
       "exfiltrationTime": 15,
       "x": 474.992,
       "y": 18.111,
       "z": -429.244,
       "rotationY": 1.241,
-      "connectedIdentifier": "VGB_WOODS_INTERCHANGE"
+      "connectedIdentifier": "VGB_WD_IT"
     },
     {
-      "identifier": "VGB_INTERCHANGE_CUSTOMS",
+      "identifier": "VGB_IT_CT",
       "destinationLocation": "bigmap",
       "description": "Transit to Customs",
       "exfiltrationTime": 15,
@@ -42,46 +42,46 @@
       "y": 21.496,
       "z": -30.97,
       "rotationY": 205.177,
-      "connectedIdentifier": "VGB_CUSTOMS_INTERCHANGE"
+      "connectedIdentifier": "VGB_CT_IT"
     },
     {
-      "identifier": "VGB_INTERCHANGE_GZ",
-      "destinationLocation": "sandbox_high",
+      "identifier": "VGB_IT_GZ",
+      "destinationLocation": "Sandbox_high",
       "description": "Transit to GZ",
       "exfiltrationTime": 15,
       "x": -222.597,
       "y": 21.325,
       "z": -38.06,
       "rotationY": 70.613,
-      "connectedIdentifier": "VGB_GZ_INTERCHANGE",
+      "connectedIdentifier": "VGB_GZ_IT",
       "requirements": [
         { "type": "EmptySlot", "requiredSlot": "Backpack", "requirementTip": "Drop your backpack to fit in" }
       ]
     },
     {
-      "identifier": "VGB_INTERCHANGE_GZ_BIS",
-      "destinationLocation": "interchange",
+      "identifier": "VGB_IT_GZ_B",
+      "destinationLocation": "Interchange",
       "description": "Transit to Interchange",
       "exfiltrationTime": 15,
       "x": -152.774,
       "y": 21.538,
       "z": -354.983,
       "rotationY": 299.358,
-      "connectedIdentifier": "VGB_GZ_INTERCHANGE_BIS"/*,
+      "connectedIdentifier": "VGB_GZ_IT_B"/*,
       "requirements": [
         { "type": "HasItem", "id": "5449016a4bdc2d6f028b456f", "count": 100000, "requirementTip": "Requires 100k roubles" }
       ]*/
     },
     {
-      "identifier": "VGB_INTERCHANGE_STREETS",
-      "destinationLocation": "tarkovstreets",
+      "identifier": "VGB_IT_ST",
+      "destinationLocation": "TarkovStreets",
       "description": "Transit to Streets",
       "exfiltrationTime": 15,
       "x": -44.586,
       "y": 21.326,
       "z": 42.359,
       "rotationY": 301.08,
-      "connectedIdentifier": "VGB_STREETS_INTERCHANGE"
+      "connectedIdentifier": "VGB_ST_IT"
     }
   ]
 }

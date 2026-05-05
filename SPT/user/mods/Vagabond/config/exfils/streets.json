@@ -47,8 +47,8 @@
   ],
   "transits": [
     {
-      "identifier": "VGB_STREETS_INTERCHANGE",
-      "destinationLocation": "interchange",
+      "identifier": "VGB_ST_IT",
+      "destinationLocation": "Interchange",
       "description": "Transit to Interchange",
       "exfiltrationTime": 15,
       "x": -149.095,
@@ -57,32 +57,32 @@
       "rotationY": 278.36
     },
     {
-      "identifier": "VGB_STREETS_GZ",
-      "destinationLocation": "sandbox_high",
+      "identifier": "VGB_ST_GZ",
+      "destinationLocation": "Sandbox_high",
       "description": "Transit to GZ",
       "exfiltrationTime": 15,
       "x": -267.04,
       "y": -2.582,
       "z": 219.48,
       "rotationY": 183.991,
-      "connectedIdentifier": "VGB_GZ_STREETS"
+      "connectedIdentifier": "VGB_GZ_ST"
     },
     {
-      "identifier": "VGB_STREETS_WOODS",
-      "destinationLocation": "woods",
+      "identifier": "VGB_ST_WD",
+      "destinationLocation": "Woods",
       "description": "Transit to Woods",
       "exfiltrationTime": 15,
       "x": 246.89,
       "y": -6.044,
       "z": 0.916,
       "rotationY": 283.182,
-      "connectedIdentifier": "VGB_WOODS_STREETS"/*,
+      "connectedIdentifier": "VGB_WD_ST"/*,
       "requirements": [
         { "type": "HasItem", "id": "5449016a4bdc2d6f028b456f", "count": 100000, "requirementTip": "Requires 100k roubles" }
       ]*/
     },
     {
-      "identifier": "VGB_STREETS_CUSTOMS",
+      "identifier": "VGB_ST_CT",
       "destinationLocation": "bigmap",
       "description": "Transit to Customs",
       "exfiltrationTime": 15,

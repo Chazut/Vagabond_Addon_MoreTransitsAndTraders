@@ -58,15 +58,15 @@
   ],
   "transits": [
     {
-      "identifier": "VGB_RESERVE_SHORELINE_RR",
-      "destinationLocation": "shoreline",
+      "identifier": "VGB_RS_SH_RR",
+      "destinationLocation": "Shoreline",
       "description": "Mountain climb to Shoreline",
       "exfiltrationTime": 20,
       "x": -14.466,
       "y": 18.409,
       "z": 205.046,
       "rotationY": 179.555,
-      "connectedIdentifier": "VGB_SHORELINE_RESERVE_RR",
+      "connectedIdentifier": "VGB_SH_RS_RR",
       "requirements": [
         {
           "type": "HasItem",
@@ -83,19 +83,19 @@
       ]
     },
     {
-      "identifier": "VGB_RESERVE_SHORELINE_D2",
-      "destinationLocation": "shoreline",
+      "identifier": "VGB_RS_SH_D2",
+      "destinationLocation": "Shoreline",
       "description": "Transit to Shoreline",
       "exfiltrationTime": 15,
       "x": -123.324,
       "y": -18.343,
       "z": 174.554,
       "rotationY": 131.122,
-      "connectedIdentifier": "VGB_SHORELINE_RESERVE"
+      "connectedIdentifier": "VGB_SH_RS"
     },
     {
-      "identifier": "VGB_RESERVE_WOODS",
-      "destinationLocation": "woods",
+      "identifier": "VGB_RS_WD",
+      "destinationLocation": "Woods",
       "description": "Transit to Woods",
       "templateExitName": "EXFIL_Bunker",
       "hijackExfil": true,
@@ -104,11 +104,11 @@
       "y": -6.896,
       "z": -195.215,
       "rotationY": 347.379,
-      "connectedIdentifier": "VGB_WOODS_RESERVE"
+      "connectedIdentifier": "VGB_WD_RS"
     },
     {
-      "identifier": "VGB_RESERVE_LIGHTHOUSE",
-      "destinationLocation": "lighthouse",
+      "identifier": "VGB_RS_LH",
+      "destinationLocation": "Lighthouse",
       "description": "Transit to Lighthouse",
       "exfiltrationTime": 15,
       "x": 60.783,

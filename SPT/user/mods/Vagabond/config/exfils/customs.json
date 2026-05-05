@@ -39,58 +39,58 @@
   ],
   "transits": [
     {
-      "identifier": "VGB_CUSTOMS_LIGHTHOUSE",
-      "destinationLocation": "lighthouse",
+      "identifier": "VGB_CT_LH",
+      "destinationLocation": "Lighthouse",
       "description": "Transit to Lighthouse",
       "exfiltrationTime": 15,
       "x": 653.017,
       "y": -0.292,
       "z": -24.815,
       "rotationY": 258.376,
-      "connectedIdentifier": "VGB_LIGHTHOUSE_CUSTOMS"/*,
+      "connectedIdentifier": "VGB_LH_CT"/*,
       "requirements": [
         { "type": "HasItem", "id": "5449016a4bdc2d6f028b456f", "count": 100000, "requirementTip": "Requires 100k roubles" }
       ]*/
     },
     {
-      "identifier": "VGB_CUSTOMS_INTERCHANGE",
-      "destinationLocation": "interchange",
+      "identifier": "VGB_CT_IT",
+      "destinationLocation": "Interchange",
       "description": "Transit to Interchange",
       "exfiltrationTime": 15,
       "x": -334.714,
       "y": 0.839,
       "z": -202.433,
       "rotationY": 51.294,
-      "connectedIdentifier": "VGB_INTERCHANGE_CUSTOMS"
+      "connectedIdentifier": "VGB_IT_CT"
     },
     {
-      "identifier": "VGB_CUSTOMS_WOODS_RUAF",
-      "destinationLocation": "woods",
+      "identifier": "VGB_CT_WD_R",
+      "destinationLocation": "Woods",
       "description": "Transit to Woods",
       "exfiltrationTime": 15,
       "x": -10.25,
       "y": -0.094,
       "z": -138.45,
       "rotationY": 37.705,
-      "connectedIdentifier": "VGB_WOODS_CUSTOMS_UNTAR"
+      "connectedIdentifier": "VGB_WD_CT_U"
     },
     {
-      "identifier": "VGB_CUSTOMS_SHORELINE",
-      "destinationLocation": "shoreline",
+      "identifier": "VGB_CT_SH",
+      "destinationLocation": "Shoreline",
       "description": "Transit to Shoreline",
       "exfiltrationTime": 15,
       "x": 19.999,
       "y": -1.172,
       "z": 127.72,
       "rotationY": 229.787,
-      "connectedIdentifier": "VGB_SHORELINE_CUSTOMS"/*,
+      "connectedIdentifier": "VGB_SH_CT"/*,
       "requirements": [
         { "type": "HasItem", "id": "5449016a4bdc2d6f028b456f", "count": 100000, "requirementTip": "Requires 100k roubles" }
       ]*/
     },
     {
-      "identifier": "VGB_CUSTOMS_WOODS",
-      "destinationLocation": "woods",
+      "identifier": "VGB_CT_WD",
+      "destinationLocation": "Woods",
       "description": "Transit to Woods",
       "exfiltrationTime": 15,
       "x": 670.364,
@@ -99,26 +99,26 @@
       "rotationY": 293.164
     },
     {
-      "identifier": "VGB_CUSTOMS_STREETS",
-      "destinationLocation": "tarkovstreets",
+      "identifier": "VGB_CT_ST",
+      "destinationLocation": "TarkovStreets",
       "description": "Transit to Streets",
       "exfiltrationTime": 15,
       "x": 163.38,
       "y": 4.238,
       "z": -295.286,
       "rotationY": 13.224,
-      "connectedIdentifier": "VGB_STREETS_CUSTOMS"
+      "connectedIdentifier": "VGB_ST_CT"
     },
     {
-      "identifier": "VGB_CUSTOMS_WOODS_BOAT",
-      "destinationLocation": "woods",
+      "identifier": "VGB_CT_WD_B",
+      "destinationLocation": "Woods",
       "description": "Transit to Woods",
       "exfiltrationTime": 15,
       "x": -39.663,
       "y": -14.065,
       "z": 120.887,
       "rotationY": 125.134,
-      "connectedIdentifier": "VGB_WOODS_CUSTOMS_BOAT"
+      "connectedIdentifier": "VGB_WD_CT_B"
     }
   ]
 }
