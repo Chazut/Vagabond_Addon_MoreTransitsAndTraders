@@ -1,0 +1,106 @@
+{
+  "extracts": [
+    {
+      "identifier": "VGB_EXT_EUPHORIA",
+      "displayName": "Euphoria",
+      "exfiltrationTime": 20,
+      "x": -122.74,
+      "y": 10.576,
+      "z": -843.164,
+      "rotationY": 90.926
+    },
+    {
+      "identifier": "VGB_EXT_JERONIMO",
+      "displayName": "Jeronimo",
+      "exfiltrationTime": 20,
+      "x": 132.759,
+      "y": 5.566,
+      "z": 286.598,
+      "rotationY": 299.273
+    },
+    {
+      "identifier": "VGB_EXT_SOCOM",
+      "displayName": "SOCOM",
+      "exfiltrationTime": 20,
+      "x": -249.904,
+      "y": 0.231,
+      "z": -328.373,
+      "rotationY": 224.941
+    },
+    {
+      "identifier": "VGB_EXT_LIGHTKEEPER",
+      "displayName": "Lightkeeper",
+      "exfiltrationTime": 20,
+      "x": 449.663,
+      "y": 32.142,
+      "z": 460.194,
+      "rotationY": 237.394
+    }
+  ],
+  "transits": [
+    {
+      "identifier": "VGB_LIGHTHOUSE_SHORELINE_TUNNEL",
+      "destinationLocation": "shoreline",
+      "description": "Transit to Shoreline",
+      "exfiltrationTime": 15,
+      "x": -67.064,
+      "y": 5.987,
+      "z": 329.328,
+      "rotationY": 83.893,
+      "connectedIdentifier": "VGB_SHORELINE_LIGHTHOUSE_TUNNEL"
+    },
+    {
+      "identifier": "VGB_LIGHTHOUSE_SHORELINE_TUNNEL_BIS",
+      "destinationLocation": "shoreline",
+      "description": "Transit to Shoreline",
+      "exfiltrationTime": 20,
+      "x": -286.691,
+      "y": 5.971,
+      "z": 419.177,
+      "rotationY": 110.061,
+      "connectedIdentifier": "VGB_SHORELINE_LIGHTHOUSE_TUNNEL_BIS",
+      "requirements": [
+        { "type": "EmptySlot", "requiredSlot": "Backpack", "requirementTip": "Drop your backpack to fit in" }
+      ]
+    },
+    {
+      "identifier": "VGB_LIGHTHOUSE_SHORELINE_BOAT",
+      "destinationLocation": "shoreline",
+      "description": "Transit to Shoreline",
+      "exfiltrationTime": 15,
+      "x": 163.968,
+      "y": 0.39,
+      "z": -163.035,
+      "rotationY": 280.478,
+      "connectedIdentifier": "VGB_SHORELINE_LIGHTHOUSE_BOAT"
+    },
+    {
+      "identifier": "VGB_LIGHTHOUSE_WOODS",
+      "destinationLocation": "woods",
+      "description": "Transit to Woods",
+      "exfiltrationTime": 15,
+      "x": -51.036,
+      "y": 10.855,
+      "z": -951.844,
+      "rotationY": 352.714,
+      "connectedIdentifier": "VGB_WOODS_LIGHTHOUSE",
+      "requirements": [
+        { "type": "HasItem", "id": "5d1b371186f774253763a656", "count": 1, "requirementTip": "Requires Expeditionary fuel tank" }
+      ]
+    },
+    {
+      "identifier": "VGB_LIGHTHOUSE_CUSTOMS",
+      "destinationLocation": "bigmap",
+      "description": "Transit to Customs",
+      "exfiltrationTime": 15,
+      "x": 117.621,
+      "y": 4.62,
+      "z": -984.154,
+      "rotationY": 334.27,
+      "connectedIdentifier": "VGB_CUSTOMS_LIGHTHOUSE",
+      "requirements": [
+        { "type": "HasItem", "id": "5449016a4bdc2d6f028b456f", "count": 100000, "requirementTip": "Requires 100k roubles" }
+      ]
+    }
+  ]
+}

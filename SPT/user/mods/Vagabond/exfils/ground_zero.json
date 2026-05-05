@@ -1,0 +1,82 @@
+{
+  "extracts": [
+    {
+      "identifier": "VGB_EXT_THERAPIST",
+      "displayName": "Therapist",
+      "exfiltrationTime": 20,
+      "x": 151.625,
+      "y": 23.068,
+      "z": -97.457,
+      "rotationY": 36.345
+    },
+    {
+      "identifier": "VGB_EXT_HARRY_HIDEOUT",
+      "displayName": "Harry Hideout",
+      "exfiltrationTime": 20,
+      "x": -15.98,
+      "y": 14.087,
+      "z": 333.307,
+      "rotationY": 343.565
+    },
+      {
+      "identifier": "VGB_EXT_REQUISITION_OFFICE",
+      "displayName": "Requisition Office",
+      "exfiltrationTime": 20,
+      "x": 124.521,
+      "y": 32.831,
+      "z": 286.685,
+      "rotationY": 199.133
+    }
+  ],
+  "transits": [
+    {
+      "identifier": "VGB_GZ_STREETS",
+      "destinationLocation": "tarkovstreets",
+      "description": "Transit to Streets",
+      "exfiltrationTime": 15,
+      "x": 229.512,
+      "y": 16.057,
+      "z": 64.28,
+      "rotationY": 264.706,
+      "connectedIdentifier": "VGB_STREETS_GZ"
+    },
+    /*{
+      "identifier": "VGB_GZ_LABS",
+      "destinationLocation": "laboratory",
+      "description": "Transit to Labs",
+      "exfiltrationTime": 15,
+      "x": -15.842,
+      "y": 23.86,
+      "z": -39.77,
+      "rotationY": 136.742
+    },*/
+    {
+      "identifier": "VGB_GZ_INTERCHANGE",
+      "destinationLocation": "interchange",
+      "description": "Transit to Interchange",
+      "exfiltrationTime": 20,
+      "x": 48.189,
+      "y": 22.785,
+      "z": 325.761,
+      "rotationY": 191.336,
+      "connectedIdentifier": "VGB_INTERCHANGE_GZ",
+      "requirements": [
+        { "type": "EmptySlot", "requiredSlot": "Backpack", "requirementTip": "Drop your backpack to fit in" }
+      ]
+    },
+    {
+      "identifier": "VGB_GZ_INTERCHANGE_BIS",
+      "destinationLocation": "interchange",
+      "description": "Transit to Interchange",
+      "exfiltrationTime": 15,
+      "x": 25.22,
+      "y": 22.597,
+      "z": -79.541,
+      "rotationY": 54.562,
+      "connectedIdentifier": "VGB_INTERCHANGE_GZ_BIS",
+      "requirements": [
+        { "type": "HasItem", "id": "5449016a4bdc2d6f028b456f", "count": 100000, "requirementTip": "Requires 100k roubles" }
+      ]
+    }
+  ]
+}

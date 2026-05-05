@@ -1,0 +1,120 @@
+{
+  "extracts": [
+    {
+      "identifier": "VGB_EXT_ZASTEN",
+      "displayName": "Zasten",
+      "templateExitName": "EXFIL_Bunker",
+      "hijackExfil": false,
+      "exfiltrationTime": 20,
+      "x": -216.403,
+      "y": -10.804,
+      "z": 50.946,
+      "rotationY": 151.933
+    },
+    {
+      "identifier": "VGB_EXT_SARIA",
+      "displayName": "Saria",
+      "templateExitName": "EXFIL_Bunker",
+      "hijackExfil": false,
+      "exfiltrationTime": 20,
+      "x": -266.924,
+      "y": -10.817,
+      "z": -75.844,
+      "rotationY": 55.577
+    },
+    {
+      "identifier": "VGB_EXT_MR_HOLDONIK",
+      "displayName": "Mr. Holdonik",
+      "templateExitName": "EXFIL_Bunker",
+      "hijackExfil": false,
+      "exfiltrationTime": 20,
+      "x": 124.402,
+      "y": -12.285,
+      "z": -120.76,
+      "rotationY": 294.604
+    },
+    {
+      "identifier": "VGB_EXT_SCORPION",
+      "displayName": "Scorpion",
+      "templateExitName": "EXFIL_Bunker",
+      "hijackExfil": false,
+      "exfiltrationTime": 20,
+      "x": 235.348,
+      "y": -10.82,
+      "z": -6.876,
+      "rotationY": 286.618
+    },
+    {
+      "identifier": "VGB_EXT_KOLYA",
+      "displayName": "Kolya",
+      "templateExitName": "EXFIL_Bunker",
+      "hijackExfil": false,
+      "exfiltrationTime": 20,
+      "x": -8.131,
+      "y": 29.668,
+      "z": 169.984,
+      "rotationY": 218.741
+    }
+  ],
+  "transits": [
+    {
+      "identifier": "VGB_RESERVE_SHORELINE_RR",
+      "destinationLocation": "shoreline",
+      "description": "Mountain climb to Shoreline",
+      "exfiltrationTime": 20,
+      "x": -14.466,
+      "y": 18.409,
+      "z": 205.046,
+      "rotationY": 179.555,
+      "connectedIdentifier": "VGB_SHORELINE_RESERVE_RR",
+      "requirements": [
+        {
+          "type": "HasItem",
+          "id": "5c012ffc0db834001d23f03f",
+          "count": 1,
+          "requirementTip": "Requires Red Rebel"
+        },
+        {
+          "type": "HasItem",
+          "id": "5d80c60f86f77440373c4ece",
+          "count": 1,
+          "requirementTip": "Requires Paracord"
+        }
+      ]
+    },
+    {
+      "identifier": "VGB_RESERVE_SHORELINE_D2",
+      "destinationLocation": "shoreline",
+      "description": "Transit to Shoreline",
+      "exfiltrationTime": 15,
+      "x": -123.324,
+      "y": -18.343,
+      "z": 174.554,
+      "rotationY": 131.122,
+      "connectedIdentifier": "VGB_SHORELINE_RESERVE"
+    },
+    {
+      "identifier": "VGB_RESERVE_WOODS",
+      "destinationLocation": "woods",
+      "description": "Transit to Woods",
+      "templateExitName": "EXFIL_Bunker",
+      "hijackExfil": true,
+      "exfiltrationTime": 15,
+      "x": 63.396,
+      "y": -6.896,
+      "z": -195.215,
+      "rotationY": 347.379,
+      "connectedIdentifier": "VGB_WOODS_RESERVE"
+    },
+    {
+      "identifier": "VGB_RESERVE_LIGHTHOUSE",
+      "destinationLocation": "lighthouse",
+      "description": "Transit to Lighthouse",
+      "exfiltrationTime": 15,
+      "x": 60.783,
+      "y": -6.297,
+      "z": 104.174,
+      "rotationY": 285.458
+    }
+  ]
+}

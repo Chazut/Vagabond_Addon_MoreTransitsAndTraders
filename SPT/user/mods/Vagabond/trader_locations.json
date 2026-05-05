@@ -1,0 +1,192 @@
+[
+  {
+    "traderId": "54cb57776803fa99248b456e",
+    "raid": "GroundZero",
+    "exfilIdentifier": "VGB_EXT_THERAPIST"
+  },
+  {
+    "traderId": "67419e9d0d4541ce671543bb",
+    "raid": "GroundZero",
+    "exfilIdentifier": "VGB_EXT_HARRY_HIDEOUT"
+  },
+  {
+    "traderId": "66f0eaa93f6cc015bc1f3acb",
+    "raid": "GroundZero",
+    "exfilIdentifier": "VGB_EXT_REQUISITION_OFFICE"
+  },
+  {
+    "traderId": "58330581ace78e27b8b10cee",
+    "raid": "Customs",
+    "exfilIdentifier": "VGB_EXT_SKIER"
+  },
+  {
+    "traderId": "67635a00fec1f22d67d76870",
+    "raid": "Customs",
+    "exfilIdentifier": "VGB_EXT_CAT_BURGLAR"
+  },
+  {
+    "traderId": "66bf757f27d0b097db0acea5",
+    "raid": "Customs",
+    "exfilIdentifier": "VGB_EXT_ARTEM"
+  },
+  {
+    "traderId": "1337bb0dd843363fcd1be869",
+    "raid": "Customs",
+    "exfilIdentifier": "VGB_EXT_CROUPIER_AMONYA"
+  },
+  {
+    "traderId": "ee840a5ba014e9c5478d5ccd",
+    "raid": "Customs",
+    "exfilIdentifier": "VGB_EXT_CROUPIER_AMONYA"
+  },
+  {
+    "traderId": "5c0647fdd443bc2504c2d371",
+    "raid": "Woods",
+    "exfilIdentifier": "VGB_EXT_JAEGER"
+  },
+  {
+    "traderId": "6718b97064eff577c649e5b0",
+    "raid": "Woods",
+    "exfilIdentifier": "VGB_EXT_NATALYA"
+  },
+  {
+    "traderId": "6747208ef022cbbfc65c41bf",
+    "raid": "Woods",
+    "exfilIdentifier": "VGB_EXT_LOTUS"
+  },
+  {
+    "traderId": "6748adca5c70634464b214a8",
+    "raid": "Woods",
+    "exfilIdentifier": "VGB_EXT_PRISCILU"
+  },
+  {
+    "traderId": "5a7c2eca46aef81a7ca2145d",
+    "raid": "FactoryDay",
+    "exfilIdentifier": "VGB_EXT_MECHANIC_LEGS"
+  },
+  {
+    "traderId": "6748edbcb936f1098d4303e4",
+    "raid": "FactoryDay",
+    "exfilIdentifier": "VGB_EXT_MECHANIC_LEGS"
+  },
+  {
+    "traderId": "5a7c2eca46aef81a7ca2145d",
+    "raid": "FactoryNight",
+    "exfilIdentifier": "VGB_EXT_MECHANIC"
+  },
+  {
+    "traderId": "6748edbcb936f1098d4303e4",
+    "raid": "FactoryNight",
+    "exfilIdentifier": "VGB_EXT_MECHANIC_LEGS"
+  },
+  {
+    "traderId": "54cb50c76803fa8b248b4571",
+    "raid": "Streets",
+    "exfilIdentifier": "VGB_EXT_PRAPOR"
+  },
+  {
+    "traderId": "579dc571d53a0658a154fbec",
+    "raid": "Streets",
+    "exfilIdentifier": "VGB_EXT_FENCE"
+  },
+  {
+    "traderId": "bd3a8b28356d9c6509966546",
+    "raid": "Streets",
+    "exfilIdentifier": "VGB_EXT_BADGER"
+  },
+  {
+    "traderId": "678937229797bd983dca2137",
+    "raid": "Streets",
+    "exfilIdentifier": "VGB_EXT_AES"
+  },
+  {
+    "traderId": "6789373b0f5ecebf0bc152d5",
+    "raid": "Streets",
+    "exfilIdentifier": "VGB_EXT_AES"
+  },
+  {
+    "traderId": "6789374aebcb3ad4c6e073bd",
+    "raid": "Streets",
+    "exfilIdentifier": "VGB_EXT_AES"
+  },
+  {
+    "traderId": "5ac3b934156ae10c4430e83c",
+    "raid": "Interchange",
+    "exfilIdentifier": "VGB_EXT_RAGMAN_COUTURIER"
+  },
+  {
+    "traderId": "66eeef8b2a166b73dc0671e8",
+    "raid": "Interchange",
+    "exfilIdentifier": "VGB_EXT_RAGMAN_COUTURIER"
+  },
+  {
+    "traderId": "5935c25fb3acc3127c3d8cd9",
+    "raid": "Shoreline",
+    "exfilIdentifier": "VGB_EXT_PEACEKEEPER"
+  },
+  {
+    "traderId": "656f0f98d80a697f855d34b1",
+    "raid": "Shoreline",
+    "exfilIdentifier": "VGB_EXT_REF"
+  },
+  {
+    "traderId": "674964e1ff0cf3b00b461857",
+    "raid": "Shoreline",
+    "exfilIdentifier": "VGB_EXT_GUIDING_LIGHT"
+  },
+  {
+    "traderId": "674964e72eae32de73a09d41",
+    "raid": "Shoreline",
+    "exfilIdentifier": "VGB_EXT_GUIDING_LIGHT"
+  },
+  {
+    "traderId": "699f89c757994beece5cf7e1",
+    "raid": "Shoreline",
+    "exfilIdentifier": "VGB_EXT_TRUDY"
+  },
+  {
+    "traderId": "68b96623ca01bc95211d3de9",
+    "raid": "Lighthouse",
+    "exfilIdentifier": "VGB_EXT_EUPHORIA"
+  },
+  {
+    "traderId": "68f581fb978611acbb3d5094",
+    "raid": "Lighthouse",
+    "exfilIdentifier": "VGB_EXT_JERONIMO"
+  },
+  {
+    "traderId": "69325b507cd59da087ad2912",
+    "raid": "Lighthouse",
+    "exfilIdentifier": "VGB_EXT_SOCOM"
+  },
+  {
+    "traderId": "638f541a29ffd1183d187f57",
+    "raid": "Lighthouse",
+    "exfilIdentifier": "VGB_EXT_LIGHTKEEPER"
+  },
+  {
+    "traderId": "6748bdca5e70634464b214a9",
+    "raid": "Reserve",
+    "exfilIdentifier": "VGB_EXT_ZASTEN"
+  },
+  {
+    "traderId": "66f4db5ca4958508883d700c",
+    "raid": "Reserve",
+    "exfilIdentifier": "VGB_EXT_SARIA"
+  },
+  {
+    "traderId": "68f7a0fba815d4d0629d80c5",
+    "raid": "Reserve",
+    "exfilIdentifier": "VGB_EXT_MR_HOLDONIK"
+  },
+  {
+    "traderId": "6688d464bc40c867f60e7d7e",
+    "raid": "Reserve",
+    "exfilIdentifier": "VGB_EXT_SCORPION"
+  },
+  {
+    "traderId": "a1b2c3d4e5f6a7b8c9d0e1f2",
+    "raid": "Reserve",
+    "exfilIdentifier": "VGB_EXT_KOLYA"
+  }
+]

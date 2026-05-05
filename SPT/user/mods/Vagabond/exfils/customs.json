@@ -1,0 +1,124 @@
+{
+  "extracts": [
+    {
+      "identifier": "VGB_EXT_SKIER",
+      "displayName": "Skier",
+      "exfiltrationTime": 20,
+      "x": 65.594,
+      "y": 1.162,
+      "z": -174.755,
+      "rotationY": 356.056
+    },
+    {
+      "identifier": "VGB_EXT_CAT_BURGLAR",
+      "displayName": "Cat Burglar",
+      "exfiltrationTime": 20,
+      "x": 200.931,
+      "y": -2.82,
+      "z": -153.946,
+      "rotationY": 1.395
+    },
+    {
+      "identifier": "VGB_EXT_ARTEM",
+      "displayName": "Artem",
+      "exfiltrationTime": 20,
+      "x": 492.641,
+      "y": 2.59,
+      "z": 220.988,
+      "rotationY": 198.787
+    },
+    {
+      "identifier": "VGB_EXT_CROUPIER_AMONYA",
+      "displayName": "Croupier | Amonya",
+      "exfiltrationTime": 20,
+      "x": 460.474,
+      "y": -2.57,
+      "z": -111.485,
+      "rotationY": 77.725
+    }
+  ],
+  "transits": [
+    {
+      "identifier": "VGB_CUSTOMS_LIGHTHOUSE",
+      "destinationLocation": "lighthouse",
+      "description": "Transit to Lighthouse",
+      "exfiltrationTime": 15,
+      "x": 653.017,
+      "y": -0.292,
+      "z": -24.815,
+      "rotationY": 258.376,
+      "connectedIdentifier": "VGB_LIGHTHOUSE_CUSTOMS",
+      "requirements": [
+        { "type": "HasItem", "id": "5449016a4bdc2d6f028b456f", "count": 100000, "requirementTip": "Requires 100k roubles" }
+      ]
+    },
+    {
+      "identifier": "VGB_CUSTOMS_INTERCHANGE",
+      "destinationLocation": "interchange",
+      "description": "Transit to Interchange",
+      "exfiltrationTime": 15,
+      "x": -334.714,
+      "y": 0.839,
+      "z": -202.433,
+      "rotationY": 51.294,
+      "connectedIdentifier": "VGB_INTERCHANGE_CUSTOMS"
+    },
+    {
+      "identifier": "VGB_CUSTOMS_WOODS_RUAF",
+      "destinationLocation": "woods",
+      "description": "Transit to Woods",
+      "exfiltrationTime": 15,
+      "x": -10.25,
+      "y": -0.094,
+      "z": -138.45,
+      "rotationY": 37.705,
+      "connectedIdentifier": "VGB_WOODS_CUSTOMS_UNTAR"
+    },
+    {
+      "identifier": "VGB_CUSTOMS_SHORELINE",
+      "destinationLocation": "shoreline",
+      "description": "Transit to Shoreline",
+      "exfiltrationTime": 15,
+      "x": 19.999,
+      "y": -1.172,
+      "z": 127.72,
+      "rotationY": 229.787,
+      "connectedIdentifier": "VGB_SHORELINE_CUSTOMS",
+      "requirements": [
+        { "type": "HasItem", "id": "5449016a4bdc2d6f028b456f", "count": 100000, "requirementTip": "Requires 100k roubles" }
+      ]
+    },
+    {
+      "identifier": "VGB_CUSTOMS_WOODS",
+      "destinationLocation": "woods",
+      "description": "Transit to Woods",
+      "exfiltrationTime": 15,
+      "x": 670.364,
+      "y": 1.069,
+      "z": -54.653,
+      "rotationY": 293.164
+    },
+    {
+      "identifier": "VGB_CUSTOMS_STREETS",
+      "destinationLocation": "tarkovstreets",
+      "description": "Transit to Streets",
+      "exfiltrationTime": 15,
+      "x": 163.38,
+      "y": 4.238,
+      "z": -295.286,
+      "rotationY": 13.224,
+      "connectedIdentifier": "VGB_STREETS_CUSTOMS"
+    },
+    {
+      "identifier": "VGB_CUSTOMS_WOODS_BOAT",
+      "destinationLocation": "woods",
+      "description": "Transit to Woods",
+      "exfiltrationTime": 15,
+      "x": -39.663,
+      "y": -14.065,
+      "z": 120.887,
+      "rotationY": 125.134,
+      "connectedIdentifier": "VGB_WOODS_CUSTOMS_BOAT"
+    }
+  ]
+}

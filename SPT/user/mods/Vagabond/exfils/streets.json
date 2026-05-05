@@ -1,0 +1,98 @@
+{
+  "extracts": [
+    {
+      "identifier": "VGB_EXT_FENCE",
+      "displayName": "Fence",
+      "templateExitName": "Sewer River",
+      "entryPoints": "e1_2,e2_3,e3_4,e4_5,e5_6,e6_1",
+      "exfiltrationTime": 20,
+      "x": 74.785,
+      "y": -2.046,
+      "z": 49.224,
+      "rotationY": 15.011
+    },
+    {
+      "identifier": "VGB_EXT_PRAPOR",
+      "displayName": "Prapor",
+      "templateExitName": "Sewer River",
+      "entryPoints": "e1_2,e2_3,e3_4,e4_5,e5_6,e6_1",
+      "exfiltrationTime": 20,
+      "x": -43.723,
+      "y": 9.611,
+      "z": -73.312,
+      "rotationY": 296.923
+    },
+    {
+      "identifier": "VGB_EXT_AES",
+      "displayName": "AES",
+      "templateExitName": "Sewer River",
+      "entryPoints": "e1_2,e2_3,e3_4,e4_5,e5_6,e6_1",
+      "exfiltrationTime": 20,
+      "x": -248.971,
+      "y": 6.261,
+      "z": 344.275,
+      "rotationY": 127.683
+    },
+    {
+      "identifier": "VGB_EXT_BADGER",
+      "displayName": "Badger",
+      "templateExitName": "Sewer River",
+      "entryPoints": "e1_2,e2_3,e3_4,e4_5,e5_6,e6_1",
+      "exfiltrationTime": 20,
+      "x": 142.831,
+      "y": 6.524,
+      "z": 357.856,
+      "rotationY": 72.953
+    }
+  ],
+  "transits": [
+    {
+      "identifier": "VGB_STREETS_INTERCHANGE",
+      "destinationLocation": "interchange",
+      "description": "Transit to Interchange",
+      "exfiltrationTime": 15,
+      "x": -149.095,
+      "y": 0.64,
+      "z": 500.152,
+      "rotationY": 278.36
+    },
+    {
+      "identifier": "VGB_STREETS_GZ",
+      "destinationLocation": "sandbox_high",
+      "description": "Transit to GZ",
+      "exfiltrationTime": 15,
+      "x": -267.04,
+      "y": -2.582,
+      "z": 219.48,
+      "rotationY": 183.991,
+      "connectedIdentifier": "VGB_GZ_STREETS"
+    },
+    {
+      "identifier": "VGB_STREETS_WOODS",
+      "destinationLocation": "woods",
+      "description": "Transit to Woods",
+      "exfiltrationTime": 15,
+      "x": 246.89,
+      "y": -6.044,
+      "z": 0.916,
+      "rotationY": 283.182,
+      "connectedIdentifier": "VGB_WOODS_STREETS",
+      "requirements": [
+        { "type": "HasItem", "id": "5449016a4bdc2d6f028b456f", "count": 100000, "requirementTip": "Requires 100k roubles" }
+      ]
+    },
+    {
+      "identifier": "VGB_STREETS_CUSTOMS",
+      "destinationLocation": "bigmap",
+      "description": "Transit to Customs",
+      "exfiltrationTime": 15,
+      "x": 291.887,
+      "y": 3.432,
+      "z": 497.267,
+      "rotationY": 210.004,
+      "requirements": [
+        { "type": "HasItem", "id": "6217726288ed9f0845317459", "count": 1, "requirementTip": "Requires RSP-30 reactive signal cartridge (Green)" }
+      ]
+    }
+  ]
+}

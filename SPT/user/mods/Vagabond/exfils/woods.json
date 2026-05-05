@@ -1,0 +1,110 @@
+{
+  "extracts": [
+    {
+      "identifier": "VGB_EXT_JAEGER",
+      "displayName": "Jaeger",
+      "exfiltrationTime": 20,
+      "x": -155.956,
+      "y": 51.164,
+      "z": -273.296,
+      "rotationY": 169.732
+    },
+    {
+      "identifier": "VGB_EXT_NATALYA",
+      "displayName": "Natalya",
+      "exfiltrationTime": 20,
+      "x": -389.169,
+      "y": 3.255,
+      "z": 11.166,
+      "rotationY": 332.717
+    },
+    {
+      "identifier": "VGB_EXT_LOTUS",
+      "displayName": "Lotus",
+      "exfiltrationTime": 20,
+      "x": 219.989,
+      "y": 20.203,
+      "z": -706.668,
+      "rotationY": 123.571
+    },
+    {
+      "identifier": "VGB_EXT_PRISCILU",
+      "displayName": "Priscilu",
+      "exfiltrationTime": 20,
+      "x": -517.93,
+      "y": 7.252,
+      "z": 149.19,
+      "rotationY": 77.939
+    }
+  ],
+  "transits": [
+    {
+      "identifier": "VGB_WOODS_STREETS",
+      "destinationLocation": "tarkovstreets",
+      "description": "Transit To Streets (Under Bridge)",
+      "exfiltrationTime": 20,
+      "x": -467.818,
+      "y": 8.167,
+      "z": -524.334,
+      "rotationY": 331.695,
+      "connectedIdentifier": "VGB_STREETS_WOODS",
+      "requirements": [
+        { "type": "HasItem", "id": "5449016a4bdc2d6f028b456f", "count": 100000, "requirementTip": "Requires 100k roubles" }
+      ]
+    },
+    {
+      "identifier": "VGB_WOODS_CUSTOMS_BOAT",
+      "destinationLocation": "bigmap",
+      "description": "Transit to Customs",
+      "exfiltrationTime": 15,
+      "x": 93.17,
+      "y": 16.72,
+      "z": -843.98,
+      "rotationY": 12.061,
+      "connectedIdentifier": "VGB_CUSTOMS_WOODS_BOAT"
+    },
+    {
+      "identifier": "VGB_WOODS_RESERVE",
+      "destinationLocation": "rezervbase",
+      "description": "Transit to Reserve",
+      "exfiltrationTime": 15,
+      "x": 446.988,
+      "y": -14.245,
+      "z": 58.427,
+      "rotationY": 337.978
+    },
+    {
+      "identifier": "VGB_WOODS_INTERCHANGE",
+      "destinationLocation": "interchange",
+      "description": "Transit to Interchange",
+      "exfiltrationTime": 15,
+      "x": -536.124,
+      "y": -1.387,
+      "z": 286.77,
+      "rotationY": 121.932,
+      "connectedIdentifier": "VGB_INTERCHANGE_WOODS"
+    },
+    {
+      "identifier": "VGB_WOODS_LIGHTHOUSE",
+      "destinationLocation": "lighthouse",
+      "description": "Transit to Lighthouse",
+      "exfiltrationTime": 15,
+      "x": 349.036,
+      "y": -11.827,
+      "z": 358.58,
+      "rotationY": 177.413,
+      "connectedIdentifier": "VGB_LIGHTHOUSE_WOODS"
+    },
+    {
+      "identifier": "VGB_WOODS_CUSTOMS_UNTAR",
+      "destinationLocation": "bigmap",
+      "description": "Transit to Customs",
+      "exfiltrationTime": 15,
+      "x": -557.324,
+      "y": 9.428,
+      "z": -67.05,
+      "rotationY": 199.816,
+      "connectedIdentifier": "VGB_CUSTOMS_WOODS_RUAF"
+    }
+  ]
+}
