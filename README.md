@@ -44,7 +44,7 @@ A few vanilla SPT transits that overlapped with Vagabond's custom ones are turne
 ## Installation
 
 1. Make sure the base **Vagabond** mod is installed and working.
-2. Copy the contents of the `SPT/` folder of this repo into your SPT installation root, overwriting:
+2. Copy the `SPT/` folder of this repo into your SPT installation root, overwriting:
    - `SPT_Data/database/locations/*/base.json`
    - `user/mods/Vagabond/*`
 3. Launch the SPT server — Vagabond will pick up the extended config on startup.
