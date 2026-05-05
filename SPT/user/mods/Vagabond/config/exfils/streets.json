@@ -76,10 +76,10 @@
       "y": -6.044,
       "z": 0.916,
       "rotationY": 283.182,
-      "connectedIdentifier": "VGB_WOODS_STREETS",
+      "connectedIdentifier": "VGB_WOODS_STREETS"/*,
       "requirements": [
         { "type": "HasItem", "id": "5449016a4bdc2d6f028b456f", "count": 100000, "requirementTip": "Requires 100k roubles" }
-      ]
+      ]*/
     },
     {
       "identifier": "VGB_STREETS_CUSTOMS",
