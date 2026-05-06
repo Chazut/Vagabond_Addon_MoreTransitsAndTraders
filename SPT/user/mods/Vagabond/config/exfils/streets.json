@@ -78,7 +78,7 @@
       "rotationY": 283.182,
       "connectedIdentifier": "VGB_WD_ST",
       "requirements": [
-        { "type": "Cost", "id": "5449016a4bdc2d6f028b456f", "count": 100000, "requirementTip": "Requires 100k roubles" }
+        { "type": "Cost", "id": "5449016a4bdc2d6f028b456f", "count": 100000, "requirementTip": "Requires 100k rubles" }
       ]
     },
     {

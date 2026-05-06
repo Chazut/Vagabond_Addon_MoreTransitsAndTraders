@@ -49,7 +49,7 @@
       "rotationY": 258.376,
       "connectedIdentifier": "VGB_LH_CT",
       "requirements": [
-        { "type": "Cost", "id": "5449016a4bdc2d6f028b456f", "count": 100000, "requirementTip": "Requires 100k roubles" }
+        { "type": "Cost", "id": "5449016a4bdc2d6f028b456f", "count": 100000, "requirementTip": "Requires 100k rubles" }
       ]
     },
     {
@@ -85,7 +85,7 @@
       "rotationY": 229.787,
       "connectedIdentifier": "VGB_SH_CT",
       "requirements": [
-        { "type": "Cost", "id": "5449016a4bdc2d6f028b456f", "count": 100000, "requirementTip": "Requires 100k roubles" }
+        { "type": "Cost", "id": "5449016a4bdc2d6f028b456f", "count": 100000, "requirementTip": "Requires 100k rubles" }
       ]
     },
     {
