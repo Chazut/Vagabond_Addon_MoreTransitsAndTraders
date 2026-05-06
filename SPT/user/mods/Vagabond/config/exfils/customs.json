@@ -47,10 +47,10 @@
       "y": -0.292,
       "z": -24.815,
       "rotationY": 258.376,
-      "connectedIdentifier": "VGB_LH_CT"/*,
+      "connectedIdentifier": "VGB_LH_CT",
       "requirements": [
-        { "type": "HasItem", "id": "5449016a4bdc2d6f028b456f", "count": 100000, "requirementTip": "Requires 100k roubles" }
-      ]*/
+        { "type": "Cost", "id": "5449016a4bdc2d6f028b456f", "count": 100000, "requirementTip": "Requires 100k roubles" }
+      ]
     },
     {
       "identifier": "VGB_CT_IT",
@@ -83,10 +83,10 @@
       "y": -1.172,
       "z": 127.72,
       "rotationY": 229.787,
-      "connectedIdentifier": "VGB_SH_CT"/*,
+      "connectedIdentifier": "VGB_SH_CT",
       "requirements": [
-        { "type": "HasItem", "id": "5449016a4bdc2d6f028b456f", "count": 100000, "requirementTip": "Requires 100k roubles" }
-      ]*/
+        { "type": "Cost", "id": "5449016a4bdc2d6f028b456f", "count": 100000, "requirementTip": "Requires 100k roubles" }
+      ]
     },
     {
       "identifier": "VGB_CT_WD",

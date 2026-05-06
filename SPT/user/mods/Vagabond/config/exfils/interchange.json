@@ -67,10 +67,10 @@
       "y": 21.538,
       "z": -354.983,
       "rotationY": 299.358,
-      "connectedIdentifier": "VGB_GZ_IT_B"/*,
+      "connectedIdentifier": "VGB_GZ_IT_B",
       "requirements": [
-        { "type": "HasItem", "id": "5449016a4bdc2d6f028b456f", "count": 100000, "requirementTip": "Requires 100k roubles" }
-      ]*/
+        { "type": "Cost", "id": "5449016a4bdc2d6f028b456f", "count": 100000, "requirementTip": "Requires 100k roubles" }
+      ]
     },
     {
       "identifier": "VGB_IT_ST",
