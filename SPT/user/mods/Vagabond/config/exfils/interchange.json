@@ -60,8 +60,8 @@
     },
     {
       "identifier": "VGB_IT_GZ_B",
-      "destinationLocation": "Interchange",
-      "description": "Transit to Interchange",
+      "destinationLocation": "Sandbox_high",
+      "description": "Transit to GZ",
       "exfiltrationTime": 15,
       "x": -152.774,
       "y": 21.538,
