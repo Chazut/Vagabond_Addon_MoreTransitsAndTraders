@@ -7805,9 +7805,9 @@
       "conditions": "SAN_TRANSIT_1_COND",
       "description": " ",
       "id": 1,
-      "location": "",
-      "name": "",
-      "target": "",
+      "location": "TarkovStreets",
+      "name": "SAN_TRANSIT_1",
+      "target": "5714dc692459777137212e12",
       "time": 20
     },
     {
