@@ -56,12 +56,11 @@ A few vanilla SPT transits that overlapped with Vagabond's custom ones are turne
 If you want to mirror the balance assumptions of this addon (Customs hideout, Croupier as your first vendor), edit `user/mods/Vagabond/config/vagabond.json` and change the following keys:
 
 ```json
-"StartingRoubles": 250000,
 "StartRaid": "Customs",
 "StartExfilIdentifier": "VGB_EXT_CROUPIER_AMONYA"
 ```
 
-Why 250 000 ₽ instead of the default 175 000 ₽? This config don't have access to Fence at the very start, so your first raid has to land at a real vendor. Croupier is the closest viable option from Customs and his starter kits sit just above the default budget — bumping the wallet to 250k lets you actually buy one on raid #1 instead of being stuck naked.
+This config don't have access to Fence at the very start, so your first raid has to land at a real vendor. Croupier is the closest viable option from Customs and his starter kits is at 150k — so you can buy one on raid #1 instead of being stuck naked.
 
 This is **only needed if you have the Croupier trader installed** and want to copy my exact early-game pacing. Any other map and/or trader works too — just point `StartExfilIdentifier` at their `VGB_EXT_*` ID from `trader_locations.json`.
 
