@@ -100,10 +100,10 @@
       "destinationLocation": "bigmap",
       "description": "Transit to Customs",
       "exfiltrationTime": 15,
-      "x": -557.324,
-      "y": 9.428,
-      "z": -67.05,
-      "rotationY": 199.816,
+      "x": -554.822,
+      "y": 9.405,
+      "z": -74.662,
+      "rotationY": 153.817,
       "connectedIdentifier": "VGB_CT_WD_R"
     }
   ]

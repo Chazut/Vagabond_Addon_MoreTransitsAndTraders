@@ -1,8 +1,8 @@
 {
   "extracts": [
     {
-      "identifier": "VGB_EXT_ZASTEN",
-      "displayName": "Zasten",
+      "identifier": "VGB_EXT_ZASTEN_SARIA",
+      "displayName": "Zasten | Saria",
       "templateExitName": "EXFIL_Bunker",
       "hijackExfil": false,
       "exfiltrationTime": 20,
@@ -10,17 +10,6 @@
       "y": -10.804,
       "z": 50.946,
       "rotationY": 151.933
-    },
-    {
-      "identifier": "VGB_EXT_SARIA",
-      "displayName": "Saria",
-      "templateExitName": "EXFIL_Bunker",
-      "hijackExfil": false,
-      "exfiltrationTime": 20,
-      "x": -266.924,
-      "y": -10.817,
-      "z": -75.844,
-      "rotationY": 55.577
     },
     {
       "identifier": "VGB_EXT_MR_HOLDONIK",
@@ -34,8 +23,8 @@
       "rotationY": 294.604
     },
     {
-      "identifier": "VGB_EXT_SCORPION",
-      "displayName": "Scorpion",
+      "identifier": "VGB_EXT_SCORPION_BTR",
+      "displayName": "BTR | Scorpion",
       "templateExitName": "EXFIL_Bunker",
       "hijackExfil": false,
       "exfiltrationTime": 20,

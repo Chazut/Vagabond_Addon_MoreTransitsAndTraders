@@ -122,12 +122,12 @@
   {
     "traderId": "5935c25fb3acc3127c3d8cd9",
     "raid": "Shoreline",
-    "exfilIdentifier": "VGB_EXT_PEACEKEEPER"
+    "exfilIdentifier": "VGB_EXT_PEACEKEEPER_REF"
   },
   {
-    "traderId": "656f0f98d80a697f855d34b1",
+    "traderId": "6617beeaa9cfa777ca915b7c",
     "raid": "Shoreline",
-    "exfilIdentifier": "VGB_EXT_REF"
+    "exfilIdentifier": "VGB_EXT_PEACEKEEPER_REF"
   },
   {
     "traderId": "674964e1ff0cf3b00b461857",
@@ -167,12 +167,12 @@
   {
     "traderId": "6748bdca5e70634464b214a9",
     "raid": "Reserve",
-    "exfilIdentifier": "VGB_EXT_ZASTEN"
+    "exfilIdentifier": "VGB_EXT_ZASTEN_SARIA"
   },
   {
     "traderId": "66f4db5ca4958508883d700c",
     "raid": "Reserve",
-    "exfilIdentifier": "VGB_EXT_SARIA"
+    "exfilIdentifier": "VGB_EXT_ZASTEN_SARIA"
   },
   {
     "traderId": "68f7a0fba815d4d0629d80c5",
@@ -182,7 +182,12 @@
   {
     "traderId": "6688d464bc40c867f60e7d7e",
     "raid": "Reserve",
-    "exfilIdentifier": "VGB_EXT_SCORPION"
+    "exfilIdentifier": "VGB_EXT_SCORPION_BTR"
+  },
+  {
+    "traderId": "656f0f98d80a697f855d34b1",
+    "raid": "Reserve",
+    "exfilIdentifier": "VGB_EXT_SCORPION_BTR"
   },
   {
     "traderId": "a1b2c3d4e5f6a7b8c9d0e1f2",

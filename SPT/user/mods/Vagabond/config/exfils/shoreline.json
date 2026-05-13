@@ -1,22 +1,13 @@
 {
   "extracts": [
     {
-      "identifier": "VGB_EXT_PEACEKEEPER",
-      "displayName": "Peacekeeper",
+      "identifier": "VGB_EXT_PEACEKEEPER_REF",
+      "displayName": "Peacekeeper | Ref",
       "exfiltrationTime": 20,
       "x": -968.499,
       "y": -59.614,
       "z": 377.603,
       "rotationY": 150.939
-    },
-    {
-      "identifier": "VGB_EXT_REF",
-      "displayName": "Ref",
-      "exfiltrationTime": 20,
-      "x": -1028.26,
-      "y": -60.674,
-      "z": 308.03,
-      "rotationY": 35.37
     },
     {
       "identifier": "VGB_EXT_GUIDING_LIGHT",
